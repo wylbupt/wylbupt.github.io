@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T14:22:31.559Z</updated>
+  <updated>2019-10-28T14:36:45.109Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git和Github Desktop</title>
+    <link href="http://yoursite.com/2019/10/28/git/"/>
+    <id>http://yoursite.com/2019/10/28/git/</id>
+    <published>2019-10-28T14:35:26.628Z</published>
+    <updated>2019-10-28T14:36:45.109Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="傻瓜式操作永远吃香！"><a href="#傻瓜式操作永远吃香！" class="headerlink" title="傻瓜式操作永远吃香！"></a>傻瓜式操作永远吃香！</h1><a id="more"></a><h2 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h2><p>1）Create a repository</p><p>2）Clone the repository<br>git clone <a href="https://github.com/username/username.github.io" target="_blank" rel="noopener">https://github.com/username/username.github.io</a></p><p>3）Enter the project folder and add an index.html file:<br>cd username.github.io<br>echo “Hello World” &gt; index.html</p><p>4）Add, commit, and push your changes:<br>git add –all<br>git commit -m “Initial commit”<br>git push -u origin master</p><p>5）go to <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></p><h2 id="Github-Desktop操作"><a href="#Github-Desktop操作" class="headerlink" title="Github Desktop操作"></a>Github Desktop操作</h2><p>1）Create a repository</p><p>2）Clone the repository</p><p>3）Create an index file</p><p>4）Commit &amp; publish</p><p>5）go to <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></p><h2 id="Github-Dektop少了一个add操作，操作更简单！"><a href="#Github-Dektop少了一个add操作，操作更简单！" class="headerlink" title="Github Dektop少了一个add操作，操作更简单！"></a>Github Dektop少了一个add操作，操作更简单！</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;傻瓜式操作永远吃香！&quot;&gt;&lt;a href=&quot;#傻瓜式操作永远吃香！&quot; class=&quot;headerlink&quot; title=&quot;傻瓜式操作永远吃香！&quot;&gt;&lt;/a&gt;傻瓜式操作永远吃香！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>WordPress, Hexo, Jekyll网站建设</title>
