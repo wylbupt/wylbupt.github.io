@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AIBC</title>
+  
+  <subtitle>爱生活</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-10-28T10:16:37.999Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>王燕龙</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AIBC</title>
+    <link href="http://yoursite.com/2019/10/28/AIBC/"/>
+    <id>http://yoursite.com/2019/10/28/AIBC/</id>
+    <published>2019-10-28T08:55:51.134Z</published>
+    <updated>2019-10-28T10:16:37.999Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Welcome-to-AIBC！"><a href="#Welcome-to-AIBC！" class="headerlink" title="Welcome to AIBC！"></a>Welcome to AIBC！</h1><a id="more"></a><h2 id="Artificial-Intelligency"><a href="#Artificial-Intelligency" class="headerlink" title="Artificial Intelligency"></a>Artificial Intelligency</h2><h2 id="Internet-of-Things"><a href="#Internet-of-Things" class="headerlink" title="Internet of Things"></a>Internet of Things</h2><h2 id="Block-Chain-and-Big-Data"><a href="#Block-Chain-and-Big-Data" class="headerlink" title="Block Chain and Big Data"></a>Block Chain and Big Data</h2><h2 id="Cyber-Security-and-Cloud-Computing"><a href="#Cyber-Security-and-Cloud-Computing" class="headerlink" title="Cyber Security and Cloud Computing"></a>Cyber Security and Cloud Computing</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Welcome-to-AIBC！&quot;&gt;&lt;a href=&quot;#Welcome-to-AIBC！&quot; class=&quot;headerlink&quot; title=&quot;Welcome to AIBC！&quot;&gt;&lt;/a&gt;Welcome to AIBC！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
