@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T14:36:45.109Z</updated>
+  <updated>2019-10-28T14:52:33.082Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker vs. 虚拟机</title>
+    <link href="http://yoursite.com/2019/10/28/docker/"/>
+    <id>http://yoursite.com/2019/10/28/docker/</id>
+    <published>2019-10-28T14:52:32.789Z</published>
+    <updated>2019-10-28T14:52:33.082Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="谁更胜一筹？"><a href="#谁更胜一筹？" class="headerlink" title="谁更胜一筹？"></a>谁更胜一筹？</h1><a id="more"></a><h2 id="Docker屏蔽了底层操作系统的差异，能够统一配置不出错。"><a href="#Docker屏蔽了底层操作系统的差异，能够统一配置不出错。" class="headerlink" title="Docker屏蔽了底层操作系统的差异，能够统一配置不出错。"></a>Docker屏蔽了底层操作系统的差异，能够统一配置不出错。</h2><h2 id="虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。"><a href="#虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。" class="headerlink" title="虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。"></a>虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。</h2><h2 id="Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。"><a href="#Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。" class="headerlink" title="Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。"></a>Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;谁更胜一筹？&quot;&gt;&lt;a href=&quot;#谁更胜一筹？&quot; class=&quot;headerlink&quot; title=&quot;谁更胜一筹？&quot;&gt;&lt;/a&gt;谁更胜一筹？&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Git和Github Desktop</title>
