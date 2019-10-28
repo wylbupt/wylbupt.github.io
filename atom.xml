@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T12:22:32.271Z</updated>
+  <updated>2019-10-28T13:16:05.590Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo本地启动成功，但是浏览器打开失败</title>
+    <link href="http://yoursite.com/2019/10/28/hexobug/"/>
+    <id>http://yoursite.com/2019/10/28/hexobug/</id>
+    <published>2019-10-28T13:13:56.555Z</published>
+    <updated>2019-10-28T13:16:05.590Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="RPC定位器是个什么鬼！"><a href="#RPC定位器是个什么鬼！" class="headerlink" title="RPC定位器是个什么鬼！"></a>RPC定位器是个什么鬼！</h1><a id="more"></a><h2 id="打开cmd（win键-R，输入cmd，回车）"><a href="#打开cmd（win键-R，输入cmd，回车）" class="headerlink" title="打开cmd（win键+R，输入cmd，回车）"></a>打开cmd（win键+R，输入cmd，回车）</h2><h2 id="netstat-ano-findstr-“4000”"><a href="#netstat-ano-findstr-“4000”" class="headerlink" title="netstat -ano|findstr “4000”"></a>netstat -ano|findstr “4000”</h2><p>//最后一列显示的是pid</p><h2 id="tasklist-findstr-“4000”"><a href="#tasklist-findstr-“4000”" class="headerlink" title="tasklist|findstr “4000”"></a>tasklist|findstr “4000”</h2><p>//查看到占用进程</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;RPC定位器是个什么鬼！&quot;&gt;&lt;a href=&quot;#RPC定位器是个什么鬼！&quot; class=&quot;headerlink&quot; title=&quot;RPC定位器是个什么鬼！&quot;&gt;&lt;/a&gt;RPC定位器是个什么鬼！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>未知类型文件默认用记事本打开，如何取消？</title>
