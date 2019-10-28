@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T13:16:05.590Z</updated>
+  <updated>2019-10-28T14:22:31.559Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WordPress, Hexo, Jekyll网站建设</title>
+    <link href="http://yoursite.com/2019/10/28/website/"/>
+    <id>http://yoursite.com/2019/10/28/website/</id>
+    <published>2019-10-28T14:11:36.733Z</published>
+    <updated>2019-10-28T14:22:31.559Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="建设自己的网站，尝试一下吧！"><a href="#建设自己的网站，尝试一下吧！" class="headerlink" title="建设自己的网站，尝试一下吧！"></a>建设自己的网站，尝试一下吧！</h1><a id="more"></a><h2 id="常见的网站搭建方案（不分先后）"><a href="#常见的网站搭建方案（不分先后）" class="headerlink" title="常见的网站搭建方案（不分先后）"></a>常见的网站搭建方案（不分先后）</h2><p>1）WordPress用PHP语言写的，<br>2）Hugo使用go语言是一种编译型语言，速度非常快，<br>3）Jekyll使用ruby编写，<br>4）Hexo使用nodejs编写，<br>ruby与nodejs都是面向对象的高级解释型语言，执行效率比编译型语言要低。（考验耐心……）</p><h2 id="推荐以下2种"><a href="#推荐以下2种" class="headerlink" title="推荐以下2种"></a>推荐以下2种</h2><h2 id="WordPress-VPS-域名（收费）"><a href="#WordPress-VPS-域名（收费）" class="headerlink" title="WordPress + VPS + 域名（收费）"></a>WordPress + VPS + 域名（收费）</h2><p>WordPress 能够三分天下占其一，还是很流行的；<br>VPS的话可以使用谷歌云或其它，有免费或付费；<br>域名的话可以免费在freenom网站申请，当然资金充足的话也可以购买.com。</p><p>有了域名和VPS后，将域名绑定到VPS的IP地址，VPS安装宝塔面板后可以方便地搭建网站。<br>推荐2个不错的主题：hestia和neve<br>推荐1个不错的插件：elementor</p><h2 id="Git-Github-Markdown-Hexo-（免费）"><a href="#Git-Github-Markdown-Hexo-（免费）" class="headerlink" title="Git+Github+Markdown+Hexo （免费）"></a>Git+Github+Markdown+Hexo （免费）</h2><p>1）安装node.js<br>2）安装<a href="https://hexo.io/zh-cn/，推荐next主题" target="_blank" rel="noopener">https://hexo.io/zh-cn/，推荐next主题</a><br>3）部署网站到本地上<br>    npm install hexo-cli -g<br>    hexo init blog<br>    cd blog<br>    npm install<br>    hexo server<br>4）部署网站到git.oi上<br>    hexo server<br>    hexo generate<br>    hexo deploy</p><p>5）文本编辑推荐VScode免安装版+Markdown插件。</p><h2 id="写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！"><a href="#写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！" class="headerlink" title="写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！"></a>写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;建设自己的网站，尝试一下吧！&quot;&gt;&lt;a href=&quot;#建设自己的网站，尝试一下吧！&quot; class=&quot;headerlink&quot; title=&quot;建设自己的网站，尝试一下吧！&quot;&gt;&lt;/a&gt;建设自己的网站，尝试一下吧！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo本地启动成功，但是浏览器打开失败</title>
