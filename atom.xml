@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T10:16:37.999Z</updated>
+  <updated>2019-10-28T12:22:32.271Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未知类型文件默认用记事本打开，如何取消？</title>
+    <link href="http://yoursite.com/2019/10/28/cleantxt/"/>
+    <id>http://yoursite.com/2019/10/28/cleantxt/</id>
+    <published>2019-10-28T12:21:00.542Z</published>
+    <updated>2019-10-28T12:22:32.271Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这篇是为了一个有洁癖的人所准备的！"><a href="#这篇是为了一个有洁癖的人所准备的！" class="headerlink" title="这篇是为了一个有洁癖的人所准备的！"></a>这篇是为了一个有洁癖的人所准备的！</h1><a id="more"></a><h2 id="打开注册表（win键-R，输入regedit，即打开注册表）"><a href="#打开注册表（win键-R，输入regedit，即打开注册表）" class="headerlink" title="打开注册表（win键+R，输入regedit，即打开注册表）"></a>打开注册表（win键+R，输入regedit，即打开注册表）</h2><h2 id="找到如下三项并删除。"><a href="#找到如下三项并删除。" class="headerlink" title="找到如下三项并删除。"></a>找到如下三项并删除。</h2><p>1）找到HKEY_CLASSES_ROOT.???，右键把文件夹删除。<br>2）找到HKEY_CLASSES_ROOT???_auto_file，右键把文件夹删除。<br>3）找到HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts.???，右键把文件夹删除。</p><h2 id="重启电脑。"><a href="#重启电脑。" class="headerlink" title="重启电脑。"></a>重启电脑。</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;这篇是为了一个有洁癖的人所准备的！&quot;&gt;&lt;a href=&quot;#这篇是为了一个有洁癖的人所准备的！&quot; class=&quot;headerlink&quot; title=&quot;这篇是为了一个有洁癖的人所准备的！&quot;&gt;&lt;/a&gt;这篇是为了一个有洁癖的人所准备的！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>AIBC</title>
