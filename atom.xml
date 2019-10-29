@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T14:59:27.547Z</updated>
+  <updated>2019-10-29T03:41:29.811Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>什么叫区块链？</title>
+    <link href="http://yoursite.com/2019/10/29/blockchain/"/>
+    <id>http://yoursite.com/2019/10/29/blockchain/</id>
+    <published>2019-10-29T03:41:29.606Z</published>
+    <updated>2019-10-29T03:41:29.811Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="通俗易懂的解释！"><a href="#通俗易懂的解释！" class="headerlink" title="通俗易懂的解释！"></a>通俗易懂的解释！</h1><a id="more"></a><h2 id="区块链-Block-Chain"><a href="#区块链-Block-Chain" class="headerlink" title="区块链 Block Chain"></a>区块链 Block Chain</h2><p>假如你是一位妹子，你男朋友每次跟你说一句肉麻的话或者承诺给你买东西，你都立刻记录下来并且发给你的和他的所有闺蜜、同学、同事，还有各种群和朋友圈，让他再也无法抵赖，这叫区块链。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;通俗易懂的解释！&quot;&gt;&lt;a href=&quot;#通俗易懂的解释！&quot; class=&quot;headerlink&quot; title=&quot;通俗易懂的解释！&quot;&gt;&lt;/a&gt;通俗易懂的解释！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Echarts</title>
