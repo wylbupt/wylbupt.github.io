@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-29T08:51:36.757Z</updated>
+  <updated>2019-11-01T05:04:22.415Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>世界局势</title>
+    <link href="http://yoursite.com/2019/11/01/world/"/>
+    <id>http://yoursite.com/2019/11/01/world/</id>
+    <published>2019-11-01T04:57:33.991Z</published>
+    <updated>2019-11-01T05:04:22.415Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="看看世界吧！"><a href="#看看世界吧！" class="headerlink" title="看看世界吧！"></a>看看世界吧！</h1><a id="more"></a><h2 id="世界概览"><a href="#世界概览" class="headerlink" title="世界概览"></a>世界概览</h2><img src="/images/world.png" >]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;看看世界吧！&quot;&gt;&lt;a href=&quot;#看看世界吧！&quot; class=&quot;headerlink&quot; title=&quot;看看世界吧！&quot;&gt;&lt;/a&gt;看看世界吧！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>梦中的婚礼</title>
