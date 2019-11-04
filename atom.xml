@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-01T05:04:22.415Z</updated>
+  <updated>2019-11-04T12:23:52.102Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Escape Master</title>
+    <link href="http://yoursite.com/2019/11/04/escape/"/>
+    <id>http://yoursite.com/2019/11/04/escape/</id>
+    <published>2019-11-04T12:11:50.114Z</published>
+    <updated>2019-11-04T12:23:52.102Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="跑得快排行榜！"><a href="#跑得快排行榜！" class="headerlink" title="跑得快排行榜！"></a>跑得快排行榜！</h1><a id="more"></a><h2 id="1933爱因斯坦"><a href="#1933爱因斯坦" class="headerlink" title="1933爱因斯坦"></a>1933爱因斯坦</h2><h2 id="1949胡适"><a href="#1949胡适" class="headerlink" title="1949胡适"></a>1949胡适</h2><h2 id="2012李嘉诚"><a href="#2012李嘉诚" class="headerlink" title="2012李嘉诚"></a>2012李嘉诚</h2><h2 id="2011潘石屹SOHO"><a href="#2011潘石屹SOHO" class="headerlink" title="2011潘石屹SOHO"></a>2011潘石屹SOHO</h2><h2 id="……"><a href="#……" class="headerlink" title="……"></a>……</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;跑得快排行榜！&quot;&gt;&lt;a href=&quot;#跑得快排行榜！&quot; class=&quot;headerlink&quot; title=&quot;跑得快排行榜！&quot;&gt;&lt;/a&gt;跑得快排行榜！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>世界局势</title>
