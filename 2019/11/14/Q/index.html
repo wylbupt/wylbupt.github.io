@@ -59,8 +59,12 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;wavefunction.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;wavetansuo.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;q1.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;q2.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;q2_1.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;q2_2.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;qspace.png">
-<meta property="og:updated_time" content="2019-11-14T10:22:02.395Z">
+<meta property="og:updated_time" content="2019-11-14T10:42:26.843Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;wavefunction.png">
 
@@ -202,7 +206,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2019-11-14 16:09:21 / 修改时间：18:22:02" itemprop="dateCreated datePublished" datetime="2019-11-14T16:09:21+08:00">2019-11-14</time>
+              <time title="创建时间：2019-11-14 16:09:21 / 修改时间：18:42:26" itemprop="dateCreated datePublished" datetime="2019-11-14T16:09:21+08:00">2019-11-14</time>
             </span>
 
           
@@ -225,6 +229,21 @@
 <p>观测结果：波动性<br>观测过程：粒子性<br>摄像头把这张看不见的网给吓跑了！神秘的力量？？<br>量子现象会因意识而改变，所以才造成观测过程会影响观测结果。</p>
 <h2 id="叠加态和纠缠态"><a href="#叠加态和纠缠态" class="headerlink" title="叠加态和纠缠态"></a>叠加态和纠缠态</h2><p>叠加态就是一个集合，如磁铁有N极和S极；而纠缠态就是磁铁的一端是N极的话，则另一端是S极。<br>叠加态=所有可能性重合在一起；纠缠态=叠加态+守恒定理。<br>叠加态是指量子在观测后坍缩成若干种状态的和；纠缠是指两个纠缠的量子，当其中一个量子发生状态改变时，另一个的状态也同步同时改变。</p>
 <h2 id="微观研究-台积电工艺7nm"><a href="#微观研究-台积电工艺7nm" class="headerlink" title="微观研究,台积电工艺7nm"></a>微观研究,台积电工艺7nm</h2><p>狭义相对论，速度不可以比光速快！<br>量子纠缠态不需要传递信息，不存在隐藏信息！反正就是知道，哈哈！</p>
+<h2 id="IBM-Q"><a href="#IBM-Q" class="headerlink" title="IBM Q"></a>IBM Q</h2><h3 id="example-one"><a href="#example-one" class="headerlink" title="example one"></a>example one</h3><p>import numpy as np<br>from qiskit import(<br>  QuantumCircuit,<br>  execute,<br>  Aer)<br>from qiskit.visualization import plot_histogram</p>
+<p>simulator = Aer.get_backend(‘qasm_simulator’)</p>
+<p>circuit = QuantumCircuit(2, 2)</p>
+<p>circuit.h(0)</p>
+<p>circuit.cx(0, 1)</p>
+<p>circuit.measure([0,1], [0,1])</p>
+<p>job = execute(circuit, simulator, shots=1000)</p>
+<p>result = job.result()</p>
+<p>counts = result.get_counts(circuit)<br>print(“\nTotal count for 00 and 11 are:”,counts)</p>
+<p>circuit.draw()<br><img src="/images/q1.png" ><br>plot_histogram(counts)<br><img src="/images/q2.png" ></p>
+<h3 id="example-two"><a href="#example-two" class="headerlink" title="example two"></a>example two</h3><p>from qiskit import *<br>numStr=’010101’<br>n=len(numStr)<br>circuit=QuantumCircuit(n+1,n)</p>
+<p>circuit.x(n)<br>circuit.barrier()<br>circuit.h(range(n+1))<br>circuit.barrier<br>for ii, yesno in enumerate(reversed(numStr)):<br>    if yesno==’1’:<br>        circuit.cx(ii,n)</p>
+<p>circuit.barrier()<br>circuit.h(range(n+1))<br>circuit.barrier()<br>circuit.measure(range(n),range(n))</p>
+<p>%matplotlib inline<br>circuit.draw(output=’mpl’)<br><img src="/images/q2_1.png" ></p>
+<p>simulator =Aer.get_backend(‘qasm_simulator’)<br>result=execute(circuit,backend=simulator,shots=1).result()<br>from qiskit.visualization import plot_histogram<br>plot_histogram(result.get_counts(circuit))<br><img src="/images/q2_2.png" ></p>
 <h2 id="Make-Money！"><a href="#Make-Money！" class="headerlink" title="Make Money！"></a>Make Money！</h2><p>权贵富豪最担心安全了，拽拽！<br><img src="/images/qspace.png" ></p>
 
     </div>
@@ -247,6 +266,9 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
+                <a href="/2019/11/14/python3/" rel="prev" title="Python3">
+                  Python3 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
       </footer>
@@ -285,7 +307,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Welcome-to-Q！"><span class="nav-number">1.</span> <span class="nav-text">Welcome to Q！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#波函数：量子力学的核心，以特定规律波动的网"><span class="nav-number">1.1.</span> <span class="nav-text">波函数：量子力学的核心，以特定规律波动的网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#波函数坍缩：观察光子运行轨迹，没有波的特性"><span class="nav-number">1.2.</span> <span class="nav-text">波函数坍缩：观察光子运行轨迹，没有波的特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#叠加态和纠缠态"><span class="nav-number">1.3.</span> <span class="nav-text">叠加态和纠缠态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#微观研究-台积电工艺7nm"><span class="nav-number">1.4.</span> <span class="nav-text">微观研究,台积电工艺7nm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Make-Money！"><span class="nav-number">1.5.</span> <span class="nav-text">Make Money！</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Welcome-to-Q！"><span class="nav-number">1.</span> <span class="nav-text">Welcome to Q！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#波函数：量子力学的核心，以特定规律波动的网"><span class="nav-number">1.1.</span> <span class="nav-text">波函数：量子力学的核心，以特定规律波动的网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#波函数坍缩：观察光子运行轨迹，没有波的特性"><span class="nav-number">1.2.</span> <span class="nav-text">波函数坍缩：观察光子运行轨迹，没有波的特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#叠加态和纠缠态"><span class="nav-number">1.3.</span> <span class="nav-text">叠加态和纠缠态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#微观研究-台积电工艺7nm"><span class="nav-number">1.4.</span> <span class="nav-text">微观研究,台积电工艺7nm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IBM-Q"><span class="nav-number">1.5.</span> <span class="nav-text">IBM Q</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#example-one"><span class="nav-number">1.5.1.</span> <span class="nav-text">example one</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#example-two"><span class="nav-number">1.5.2.</span> <span class="nav-text">example two</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Make-Money！"><span class="nav-number">1.6.</span> <span class="nav-text">Make Money！</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -301,7 +323,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">15</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
