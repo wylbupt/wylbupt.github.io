@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-04T12:23:52.102Z</updated>
+  <updated>2019-11-14T10:22:02.395Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Q量子</title>
+    <link href="http://yoursite.com/2019/11/14/Q/"/>
+    <id>http://yoursite.com/2019/11/14/Q/</id>
+    <published>2019-11-14T08:09:21.550Z</published>
+    <updated>2019-11-14T10:22:02.395Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Welcome-to-Q！"><a href="#Welcome-to-Q！" class="headerlink" title="Welcome to Q！"></a>Welcome to Q！</h1><a id="more"></a><h2 id="波函数：量子力学的核心，以特定规律波动的网"><a href="#波函数：量子力学的核心，以特定规律波动的网" class="headerlink" title="波函数：量子力学的核心，以特定规律波动的网"></a>波函数：量子力学的核心，以特定规律波动的网</h2><img src="/images/wavefunction.png" ><h2 id="波函数坍缩：观察光子运行轨迹，没有波的特性"><a href="#波函数坍缩：观察光子运行轨迹，没有波的特性" class="headerlink" title="波函数坍缩：观察光子运行轨迹，没有波的特性"></a>波函数坍缩：观察光子运行轨迹，没有波的特性</h2><img src="/images/wavetansuo.png" ><p>观测结果：波动性<br>观测过程：粒子性<br>摄像头把这张看不见的网给吓跑了！神秘的力量？？<br>量子现象会因意识而改变，所以才造成观测过程会影响观测结果。</p><h2 id="叠加态和纠缠态"><a href="#叠加态和纠缠态" class="headerlink" title="叠加态和纠缠态"></a>叠加态和纠缠态</h2><p>叠加态就是一个集合，如磁铁有N极和S极；而纠缠态就是磁铁的一端是N极的话，则另一端是S极。<br>叠加态=所有可能性重合在一起；纠缠态=叠加态+守恒定理。<br>叠加态是指量子在观测后坍缩成若干种状态的和；纠缠是指两个纠缠的量子，当其中一个量子发生状态改变时，另一个的状态也同步同时改变。</p><h2 id="微观研究-台积电工艺7nm"><a href="#微观研究-台积电工艺7nm" class="headerlink" title="微观研究,台积电工艺7nm"></a>微观研究,台积电工艺7nm</h2><p>狭义相对论，速度不可以比光速快！<br>量子纠缠态不需要传递信息，不存在隐藏信息！反正就是知道，哈哈！</p><h2 id="Make-Money！"><a href="#Make-Money！" class="headerlink" title="Make Money！"></a>Make Money！</h2><p>权贵富豪最担心安全了，拽拽！<br><img src="/images/qspace.png" ></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Welcome-to-Q！&quot;&gt;&lt;a href=&quot;#Welcome-to-Q！&quot; class=&quot;headerlink&quot; title=&quot;Welcome to Q！&quot;&gt;&lt;/a&gt;Welcome to Q！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Escape Master</title>
