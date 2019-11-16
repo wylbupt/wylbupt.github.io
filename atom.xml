@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-14T10:31:41.084Z</updated>
+  <updated>2019-11-16T13:58:20.764Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Future</title>
+    <link href="http://yoursite.com/2019/11/16/future/"/>
+    <id>http://yoursite.com/2019/11/16/future/</id>
+    <published>2019-11-16T13:55:18.316Z</published>
+    <updated>2019-11-16T13:58:20.764Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Welcome-to-future！"><a href="#Welcome-to-future！" class="headerlink" title="Welcome to future！"></a>Welcome to future！</h1><a id="more"></a><h2 id="时间表"><a href="#时间表" class="headerlink" title="时间表"></a>时间表</h2><p>2019年，中美冷战开始长达30年。</p><p>2020年以后，房价进入下行通道，以后房子会是廉价品</p><p>特朗普、蔡英文成功连任</p><p>东京奥运会有事故发生</p><p>2022-2023年，大陆与台湾爆发冲突</p><p>虎年，中国爆发经济危机</p><p>2030年以后，手机成为历史（可能是芯片植入身体）</p><p>卫星wifi使网络封锁不在存在</p><p>2032年雅加达举办夏季奥运会</p><p>2038年后，机器人得到广泛应用</p><p>40-50年代，房屋打印、交互游戏、光学虚拟三大行业崛起</p><p>2048年，第三次世界大战爆发，尸首成堆，血流成河。战后物质匮乏，饥荒、战争、高温肆虐人<br>间，人们从最求物质转向追求精神，积极探索人与宇宙的联</p><p>日本迁都到岗山</p><p>60年代，公共交通免费，水果牛奶昂贵，纸质书籍成拍卖品</p><p>癌症得到克服，超级细菌危害巨大</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Welcome-to-future！&quot;&gt;&lt;a href=&quot;#Welcome-to-future！&quot; class=&quot;headerlink&quot; title=&quot;Welcome to future！&quot;&gt;&lt;/a&gt;Welcome to future！&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Python3</title>
