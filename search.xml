@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>知止不殆</title>
+    <url>/2019/12/09/zzbd/</url>
+    <content><![CDATA[<h1 id="冬天来了！"><a href="#冬天来了！" class="headerlink" title="冬天来了！"></a>冬天来了！</h1><a id="more"></a>
+
+<h2 id="知止不殆"><a href="#知止不殆" class="headerlink" title="知止不殆"></a>知止不殆</h2><embed src="/pdf/zzbd.pdf" width="100%" height="500">
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Future</title>
+    <url>/2019/11/16/future/</url>
+    <content><![CDATA[<h1 id="Welcome-to-future！"><a href="#Welcome-to-future！" class="headerlink" title="Welcome to future！"></a>Welcome to future！</h1><a id="more"></a>
+
+<h2 id="时间表"><a href="#时间表" class="headerlink" title="时间表"></a>时间表</h2><p>2019年，中美冷战开始长达30年。</p>
+<p>2020年以后，房价进入下行通道，以后房子会是廉价品</p>
+<p>特朗普、蔡英文成功连任</p>
+<p>东京奥运会有事故发生</p>
+<p>2022-2023年，大陆与台湾爆发冲突</p>
+<p>虎年，中国爆发经济危机</p>
+<p>2030年以后，手机成为历史（可能是芯片植入身体）</p>
+<p>卫星wifi使网络封锁不在存在</p>
+<p>2032年雅加达举办夏季奥运会</p>
+<p>2038年后，机器人得到广泛应用</p>
+<p>40-50年代，房屋打印、交互游戏、光学虚拟三大行业崛起</p>
+<p>2048年，第三次世界大战爆发，尸首成堆，血流成河。战后物质匮乏，饥荒、战争、高温肆虐人<br>间，人们从最求物质转向追求精神，积极探索人与宇宙的联</p>
+<p>日本迁都到岗山</p>
+<p>60年代，公共交通免费，水果牛奶昂贵，纸质书籍成拍卖品</p>
+<p>癌症得到克服，超级细菌危害巨大</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Python3</title>
+    <url>/2019/11/14/python3/</url>
+    <content><![CDATA[<h1 id="Welcome-to-Python3！"><a href="#Welcome-to-Python3！" class="headerlink" title="Welcome to Python3！"></a>Welcome to Python3！</h1><a id="more"></a>
+
+<h2 id="Python-编程语言的王者"><a href="#Python-编程语言的王者" class="headerlink" title="Python 编程语言的王者!"></a>Python 编程语言的王者!</h2><p>Python 人工智能，量子计算</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Q量子</title>
+    <url>/2019/11/14/Q/</url>
+    <content><![CDATA[<h1 id="Welcome-to-Q！"><a href="#Welcome-to-Q！" class="headerlink" title="Welcome to Q！"></a>Welcome to Q！</h1><a id="more"></a>
+
+<h2 id="波函数：量子力学的核心，以特定规律波动的网"><a href="#波函数：量子力学的核心，以特定规律波动的网" class="headerlink" title="波函数：量子力学的核心，以特定规律波动的网"></a>波函数：量子力学的核心，以特定规律波动的网</h2><img src="/images/wavefunction.png" >
+
+<h2 id="波函数坍缩：观察光子运行轨迹，没有波的特性"><a href="#波函数坍缩：观察光子运行轨迹，没有波的特性" class="headerlink" title="波函数坍缩：观察光子运行轨迹，没有波的特性"></a>波函数坍缩：观察光子运行轨迹，没有波的特性</h2><img src="/images/wavetansuo.png" >
+
+<p>观测结果：波动性<br>观测过程：粒子性<br>摄像头把这张看不见的网给吓跑了！神秘的力量？？<br>量子现象会因意识而改变，所以才造成观测过程会影响观测结果。</p>
+<h2 id="叠加态和纠缠态"><a href="#叠加态和纠缠态" class="headerlink" title="叠加态和纠缠态"></a>叠加态和纠缠态</h2><p>叠加态就是一个集合，如磁铁有N极和S极；而纠缠态就是磁铁的一端是N极的话，则另一端是S极。<br>叠加态=所有可能性重合在一起；纠缠态=叠加态+守恒定理。<br>叠加态是指量子在观测后坍缩成若干种状态的和；纠缠是指两个纠缠的量子，当其中一个量子发生状态改变时，另一个的状态也同步同时改变。</p>
+<h2 id="微观研究-台积电工艺7nm"><a href="#微观研究-台积电工艺7nm" class="headerlink" title="微观研究,台积电工艺7nm"></a>微观研究,台积电工艺7nm</h2><p>狭义相对论，速度不可以比光速快！<br>量子纠缠态不需要传递信息，不存在隐藏信息！反正就是知道，哈哈！</p>
+<h2 id="IBM-Q"><a href="#IBM-Q" class="headerlink" title="IBM Q"></a>IBM Q</h2><h3 id="example-one"><a href="#example-one" class="headerlink" title="example one"></a>example one</h3><p>import numpy as np<br>from qiskit import(<br>  QuantumCircuit,<br>  execute,<br>  Aer)<br>from qiskit.visualization import plot_histogram</p>
+<p>simulator = Aer.get_backend(‘qasm_simulator’)</p>
+<p>circuit = QuantumCircuit(2, 2)</p>
+<p>circuit.h(0)</p>
+<p>circuit.cx(0, 1)</p>
+<p>circuit.measure([0,1], [0,1])</p>
+<p>job = execute(circuit, simulator, shots=1000)</p>
+<p>result = job.result()</p>
+<p>counts = result.get_counts(circuit)<br>print(“\nTotal count for 00 and 11 are:”,counts)</p>
+<p>circuit.draw()<br><img src="/images/q1.png" ><br>plot_histogram(counts)<br><img src="/images/q2.png" ></p>
+<h3 id="example-two"><a href="#example-two" class="headerlink" title="example two"></a>example two</h3><p>from qiskit import *<br>numStr=’010101’<br>n=len(numStr)<br>circuit=QuantumCircuit(n+1,n)</p>
+<p>circuit.x(n)<br>circuit.barrier()<br>circuit.h(range(n+1))<br>circuit.barrier<br>for ii, yesno in enumerate(reversed(numStr)):<br>    if yesno==’1’:<br>        circuit.cx(ii,n)</p>
+<p>circuit.barrier()<br>circuit.h(range(n+1))<br>circuit.barrier()<br>circuit.measure(range(n),range(n))</p>
+<p>%matplotlib inline<br>circuit.draw(output=’mpl’)<br><img src="/images/q2_1.png" ></p>
+<p>simulator =Aer.get_backend(‘qasm_simulator’)<br>result=execute(circuit,backend=simulator,shots=1).result()<br>from qiskit.visualization import plot_histogram<br>plot_histogram(result.get_counts(circuit))<br><img src="/images/q2_2.png" ></p>
+<h2 id="Make-Money！"><a href="#Make-Money！" class="headerlink" title="Make Money！"></a>Make Money！</h2><p>权贵富豪最担心安全了，拽拽！<br><img src="/images/qspace.png" ></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Escape Master</title>
+    <url>/2019/11/04/escape/</url>
+    <content><![CDATA[<h1 id="跑得快排行榜！"><a href="#跑得快排行榜！" class="headerlink" title="跑得快排行榜！"></a>跑得快排行榜！</h1><a id="more"></a>
+
+<h2 id="1933爱因斯坦"><a href="#1933爱因斯坦" class="headerlink" title="1933爱因斯坦"></a>1933爱因斯坦</h2><h2 id="1949胡适"><a href="#1949胡适" class="headerlink" title="1949胡适"></a>1949胡适</h2><h2 id="2012李嘉诚"><a href="#2012李嘉诚" class="headerlink" title="2012李嘉诚"></a>2012李嘉诚</h2><h2 id="2011潘石屹SOHO"><a href="#2011潘石屹SOHO" class="headerlink" title="2011潘石屹SOHO"></a>2011潘石屹SOHO</h2><h2 id="……"><a href="#……" class="headerlink" title="……"></a>……</h2>]]></content>
+  </entry>
+  <entry>
+    <title>世界局势</title>
+    <url>/2019/11/01/world/</url>
+    <content><![CDATA[<h1 id="看看世界吧！"><a href="#看看世界吧！" class="headerlink" title="看看世界吧！"></a>看看世界吧！</h1><a id="more"></a>
+
+<h2 id="世界概览"><a href="#世界概览" class="headerlink" title="世界概览"></a>世界概览</h2><img src="/images/world.png" >
+]]></content>
+  </entry>
+  <entry>
+    <title>梦中的婚礼</title>
+    <url>/2019/10/29/mu/</url>
+    <content><![CDATA[<h1 id="送给未来的她"><a href="#送给未来的她" class="headerlink" title="送给未来的她"></a>送给未来的她</h1><a id="more"></a>
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=34341360&auto=1&height=66"></iframe>
+
+<p><a href="http://127.0.0.1:4000/" target="_blank" rel="noopener">本地网址</a> <a href="https://wylbupt.github.io" target="_blank" rel="noopener">Git网址</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>成功与早起</title>
+    <url>/2019/10/29/vidio/</url>
+    <content><![CDATA[<h1 id="晚成功也得早起啊！"><a href="#晚成功也得早起啊！" class="headerlink" title="晚成功也得早起啊！"></a>晚成功也得早起啊！</h1><a id="more"></a>
+
+<h2 id="早成功不如晚成功，年轻有为不如大器晚成！"><a href="#早成功不如晚成功，年轻有为不如大器晚成！" class="headerlink" title="早成功不如晚成功，年轻有为不如大器晚成！"></a>早成功不如晚成功，年轻有为不如大器晚成！</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/9aCl00nJZ1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="与其早成功不如晚成功，与其晚失败不如早失败！"><a href="#与其早成功不如晚成功，与其晚失败不如早失败！" class="headerlink" title="与其早成功不如晚成功，与其晚失败不如早失败！"></a>与其早成功不如晚成功，与其晚失败不如早失败！</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/dBVp8a6gtcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="成功的人為什麼多數都早起？"><a href="#成功的人為什麼多數都早起？" class="headerlink" title="成功的人為什麼多數都早起？"></a>成功的人為什麼多數都早起？</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/CefDM7Bo7xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]]></content>
+  </entry>
+  <entry>
+    <title>精美图片</title>
+    <url>/2019/10/29/pic/</url>
+    <content><![CDATA[<h1 id="赏心悦目"><a href="#赏心悦目" class="headerlink" title="赏心悦目"></a>赏心悦目</h1><a id="more"></a>
+
+<h2 id="乌克兰-爱之隧道"><a href="#乌克兰-爱之隧道" class="headerlink" title="乌克兰 爱之隧道"></a>乌克兰 爱之隧道</h2><p><img src="/images/w1.jpg" alt=""></p>
+<h2 id="荷兰-郁金香园"><a href="#荷兰-郁金香园" class="headerlink" title="荷兰 郁金香园"></a>荷兰 郁金香园</h2><img src="/images/w2.jpg" >
+
+<h2 id="玻利维亚-乌尤尼盐湖：世界最大的镜子之一"><a href="#玻利维亚-乌尤尼盐湖：世界最大的镜子之一" class="headerlink" title="玻利维亚 乌尤尼盐湖：世界最大的镜子之一"></a>玻利维亚 乌尤尼盐湖：世界最大的镜子之一</h2><img src="/images/w3.jpg" >
+<img src="/images/w3-1.jpg" >
+
+<h2 id="日本-日立海滨公园"><a href="#日本-日立海滨公园" class="headerlink" title="日本 日立海滨公园"></a>日本 日立海滨公园</h2><img src="/images/w4.jpg" >
+
+<h2 id="阿拉斯加州朱诺市-门登荷冰窟"><a href="#阿拉斯加州朱诺市-门登荷冰窟" class="headerlink" title="阿拉斯加州朱诺市 门登荷冰窟"></a>阿拉斯加州朱诺市 门登荷冰窟</h2><img src="/images/w5.jpg" >
+
+<h2 id="中国-盘锦红海滩"><a href="#中国-盘锦红海滩" class="headerlink" title="中国 盘锦红海滩"></a>中国 盘锦红海滩</h2><img src="/images/w6.jpg" >
+
+<h2 id="日本-竹林"><a href="#日本-竹林" class="headerlink" title="日本 竹林"></a>日本 竹林</h2><img src="/images/w7.jpg" >
+
+<h2 id="德国-波恩的街道"><a href="#德国-波恩的街道" class="headerlink" title="德国 波恩的街道"></a>德国 波恩的街道</h2><img src="/images/w8.jpg" >
+
+<h2 id="墨西哥-奈卡水晶洞"><a href="#墨西哥-奈卡水晶洞" class="headerlink" title="墨西哥 奈卡水晶洞"></a>墨西哥 奈卡水晶洞</h2><img src="/images/w9.jpg" >
+<img src="/images/w9-1.jpg" >
+
+<h2 id="日本-紫藤花隧道"><a href="#日本-紫藤花隧道" class="headerlink" title="日本 紫藤花隧道"></a>日本 紫藤花隧道</h2><img src="/images/w10.jpg" >
+
+<h2 id="德国-黑森林"><a href="#德国-黑森林" class="headerlink" title="德国 黑森林"></a>德国 黑森林</h2><img src="/images/w11.jpg" >
+
+<h2 id="中国-茶园"><a href="#中国-茶园" class="headerlink" title="中国 茶园"></a>中国 茶园</h2><img src="/images/w12.jpg" >
+
+<h2 id="中国-张家界天子山"><a href="#中国-张家界天子山" class="headerlink" title="中国 张家界天子山"></a>中国 张家界天子山</h2><img src="/images/w13.jpg" >
+
+<h2 id="越南-韩松洞"><a href="#越南-韩松洞" class="headerlink" title="越南 韩松洞"></a>越南 韩松洞</h2><img src="/images/w14.jpg" >
+
+<h2 id="日本-泷上公园芝樱花"><a href="#日本-泷上公园芝樱花" class="headerlink" title="日本 泷上公园芝樱花"></a>日本 泷上公园芝樱花</h2><img src="/images/w15.jpg" >
+
+<h2 id="美国-羚羊峡谷"><a href="#美国-羚羊峡谷" class="headerlink" title="美国 羚羊峡谷"></a>美国 羚羊峡谷</h2><img src="/images/w16.jpg" >
+
+<h2 id="澳大利亚-希勒湖"><a href="#澳大利亚-希勒湖" class="headerlink" title="澳大利亚 希勒湖"></a>澳大利亚 希勒湖</h2><img src="/images/w17.jpg" >
+
+<h2 id="塞内加尔-玫瑰湖"><a href="#塞内加尔-玫瑰湖" class="headerlink" title="塞内加尔 玫瑰湖"></a>塞内加尔 玫瑰湖</h2><img src="/images/w18.jpg" >
+
+<h2 id="英国和法-薰衣草园"><a href="#英国和法-薰衣草园" class="headerlink" title="英国和法 薰衣草园"></a>英国和法 薰衣草园</h2><img src="/images/w19.jpg" >
+<img src="/images/w19-1.jpg" >
+
+<h2 id="中国-油菜花田"><a href="#中国-油菜花田" class="headerlink" title="中国 油菜花田"></a>中国 油菜花田</h2><img src="/images/w20.jpg" >
+
+<h2 id="南美-罗赖马山"><a href="#南美-罗赖马山" class="headerlink" title="南美 罗赖马山"></a>南美 罗赖马山</h2><img src="/images/w21.jpg" >
+
+<h2 id="中国-张掖丹霞山地貌"><a href="#中国-张掖丹霞山地貌" class="headerlink" title="中国 张掖丹霞山地貌"></a>中国 张掖丹霞山地貌</h2><img src="/images/w22.jpg" >]]></content>
+  </entry>
+  <entry>
+    <title>什么叫区块链？</title>
+    <url>/2019/10/29/blockchain/</url>
+    <content><![CDATA[<h1 id="通俗易懂的解释！"><a href="#通俗易懂的解释！" class="headerlink" title="通俗易懂的解释！"></a>通俗易懂的解释！</h1><a id="more"></a>
+
+<h2 id="区块链-Block-Chain"><a href="#区块链-Block-Chain" class="headerlink" title="区块链 Block Chain"></a>区块链 Block Chain</h2><p>假如你是一位妹子，你男朋友每次跟你说一句肉麻的话或者承诺给你买东西，你都立刻记录下来并且发给你的和他的所有闺蜜、同学、同事，还有各种群和朋友圈，让他再也无法抵赖，这叫区块链。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Echarts</title>
+    <url>/2019/10/28/echarts/</url>
+    <content><![CDATA[<h1 id="度娘良心啊？！"><a href="#度娘良心啊？！" class="headerlink" title="度娘良心啊？！"></a>度娘良心啊？！</h1><a id="more"></a>
+
+<h2 id="千年等一回！"><a href="#千年等一回！" class="headerlink" title="千年等一回！"></a>千年等一回！</h2><p><a href="https://www.echartsjs.com/zh/index.html" target="_blank" rel="noopener">https://www.echartsjs.com/zh/index.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Docker vs. 虚拟机</title>
+    <url>/2019/10/28/docker/</url>
+    <content><![CDATA[<h1 id="谁更胜一筹？"><a href="#谁更胜一筹？" class="headerlink" title="谁更胜一筹？"></a>谁更胜一筹？</h1><a id="more"></a>
+
+<h2 id="Docker屏蔽了底层操作系统的差异，能够统一配置不出错。"><a href="#Docker屏蔽了底层操作系统的差异，能够统一配置不出错。" class="headerlink" title="Docker屏蔽了底层操作系统的差异，能够统一配置不出错。"></a>Docker屏蔽了底层操作系统的差异，能够统一配置不出错。</h2><h2 id="虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。"><a href="#虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。" class="headerlink" title="虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。"></a>虚拟机需要自己配置操作系统等软硬件，配置不统一会出错。</h2><h2 id="Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。"><a href="#Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。" class="headerlink" title="Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。"></a>Docker好比联合国语言，一门语言；而虚拟机好比汉语、英语、方言，多种语言。</h2>]]></content>
+  </entry>
+  <entry>
+    <title>Git和Github Desktop</title>
+    <url>/2019/10/28/git/</url>
+    <content><![CDATA[<h1 id="傻瓜式操作永远吃香！"><a href="#傻瓜式操作永远吃香！" class="headerlink" title="傻瓜式操作永远吃香！"></a>傻瓜式操作永远吃香！</h1><a id="more"></a>
+
+<h2 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h2><p>1）Create a repository</p>
+<p>2）Clone the repository<br>git clone <a href="https://github.com/username/username.github.io" target="_blank" rel="noopener">https://github.com/username/username.github.io</a></p>
+<p>3）Enter the project folder and add an index.html file:<br>cd username.github.io<br>echo “Hello World” &gt; index.html</p>
+<p>4）Add, commit, and push your changes:<br>git add –all<br>git commit -m “Initial commit”<br>git push -u origin master</p>
+<p>5）go to <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></p>
+<h2 id="Github-Desktop操作"><a href="#Github-Desktop操作" class="headerlink" title="Github Desktop操作"></a>Github Desktop操作</h2><p>1）Create a repository</p>
+<p>2）Clone the repository</p>
+<p>3）Create an index file</p>
+<p>4）Commit &amp; publish</p>
+<p>5）go to <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></p>
+<h2 id="Github-Dektop少了一个add操作，操作更简单！"><a href="#Github-Dektop少了一个add操作，操作更简单！" class="headerlink" title="Github Dektop少了一个add操作，操作更简单！"></a>Github Dektop少了一个add操作，操作更简单！</h2>]]></content>
+  </entry>
+  <entry>
+    <title>WordPress, Hexo, Jekyll网站建设</title>
+    <url>/2019/10/28/website/</url>
+    <content><![CDATA[<h1 id="建设自己的网站，尝试一下吧！"><a href="#建设自己的网站，尝试一下吧！" class="headerlink" title="建设自己的网站，尝试一下吧！"></a>建设自己的网站，尝试一下吧！</h1><a id="more"></a>
+
+<h2 id="常见的网站搭建方案（不分先后）"><a href="#常见的网站搭建方案（不分先后）" class="headerlink" title="常见的网站搭建方案（不分先后）"></a>常见的网站搭建方案（不分先后）</h2><p>1）WordPress用PHP语言写的，<br>2）Hugo使用go语言是一种编译型语言，速度非常快，<br>3）Jekyll使用ruby编写，<br>4）Hexo使用nodejs编写，<br>ruby与nodejs都是面向对象的高级解释型语言，执行效率比编译型语言要低。（考验耐心……）</p>
+<h2 id="推荐以下2种"><a href="#推荐以下2种" class="headerlink" title="推荐以下2种"></a>推荐以下2种</h2><h2 id="WordPress-VPS-域名（收费）"><a href="#WordPress-VPS-域名（收费）" class="headerlink" title="WordPress + VPS + 域名（收费）"></a>WordPress + VPS + 域名（收费）</h2><p>WordPress 能够三分天下占其一，还是很流行的；<br>VPS的话可以使用谷歌云或其它，有免费或付费；<br>域名的话可以免费在freenom网站申请，当然资金充足的话也可以购买.com。</p>
+<p>有了域名和VPS后，将域名绑定到VPS的IP地址，VPS安装宝塔面板后可以方便地搭建网站。<br>推荐2个不错的主题：hestia和neve<br>推荐1个不错的插件：elementor</p>
+<h2 id="Git-Github-Markdown-Hexo-（免费）"><a href="#Git-Github-Markdown-Hexo-（免费）" class="headerlink" title="Git+Github+Markdown+Hexo （免费）"></a>Git+Github+Markdown+Hexo （免费）</h2><p>1）安装node.js<br>2）安装<a href="https://hexo.io/zh-cn/，推荐next主题" target="_blank" rel="noopener">https://hexo.io/zh-cn/，推荐next主题</a><br>3）部署网站到本地上<br>    npm install hexo-cli -g<br>    hexo init blog<br>    cd blog<br>    npm install<br>    hexo server<br>4）部署网站到git.oi上<br>    hexo server<br>    hexo generate<br>    hexo deploy</p>
+<p>5）文本编辑推荐VScode免安装版+Markdown插件。</p>
+<h2 id="写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！"><a href="#写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！" class="headerlink" title="写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！"></a>写博客首选Hexo，中小型网站建议WordPress，企业级网站肯定Java啦！</h2>]]></content>
+  </entry>
+  <entry>
+    <title>Hexo本地启动成功，但是浏览器打开失败</title>
+    <url>/2019/10/28/hexobug/</url>
+    <content><![CDATA[<h1 id="RPC定位器是个什么鬼！"><a href="#RPC定位器是个什么鬼！" class="headerlink" title="RPC定位器是个什么鬼！"></a>RPC定位器是个什么鬼！</h1><a id="more"></a>
+
+<h2 id="打开cmd（win键-R，输入cmd，回车）"><a href="#打开cmd（win键-R，输入cmd，回车）" class="headerlink" title="打开cmd（win键+R，输入cmd，回车）"></a>打开cmd（win键+R，输入cmd，回车）</h2><h2 id="netstat-ano-findstr-“4000”"><a href="#netstat-ano-findstr-“4000”" class="headerlink" title="netstat -ano|findstr “4000”"></a>netstat -ano|findstr “4000”</h2><p>//最后一列显示的是pid</p>
+<h2 id="tasklist-findstr-“4000”"><a href="#tasklist-findstr-“4000”" class="headerlink" title="tasklist|findstr “4000”"></a>tasklist|findstr “4000”</h2><p>//查看到占用进程</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>未知类型文件默认用记事本打开，如何取消？</title>
+    <url>/2019/10/28/cleantxt/</url>
+    <content><![CDATA[<h1 id="这篇是为了一个有洁癖的人所准备的！"><a href="#这篇是为了一个有洁癖的人所准备的！" class="headerlink" title="这篇是为了一个有洁癖的人所准备的！"></a>这篇是为了一个有洁癖的人所准备的！</h1><a id="more"></a>
+
+<h2 id="打开注册表（win键-R，输入regedit，即打开注册表）"><a href="#打开注册表（win键-R，输入regedit，即打开注册表）" class="headerlink" title="打开注册表（win键+R，输入regedit，即打开注册表）"></a>打开注册表（win键+R，输入regedit，即打开注册表）</h2><h2 id="找到如下三项并删除。"><a href="#找到如下三项并删除。" class="headerlink" title="找到如下三项并删除。"></a>找到如下三项并删除。</h2><p>1）找到HKEY_CLASSES_ROOT.???，右键把文件夹删除。<br>2）找到HKEY_CLASSES_ROOT???_auto_file，右键把文件夹删除。<br>3）找到HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts.???，右键把文件夹删除。</p>
+<h2 id="重启电脑。"><a href="#重启电脑。" class="headerlink" title="重启电脑。"></a>重启电脑。</h2>]]></content>
+  </entry>
+  <entry>
+    <title>AIBC</title>
+    <url>/2019/10/28/AIBC/</url>
+    <content><![CDATA[<h1 id="Welcome-to-AIBC！"><a href="#Welcome-to-AIBC！" class="headerlink" title="Welcome to AIBC！"></a>Welcome to AIBC！</h1><a id="more"></a>
+
+<h2 id="Artificial-Intelligency"><a href="#Artificial-Intelligency" class="headerlink" title="Artificial Intelligency"></a>Artificial Intelligency</h2><h2 id="Internet-of-Things"><a href="#Internet-of-Things" class="headerlink" title="Internet of Things"></a>Internet of Things</h2><h2 id="Block-Chain-and-Big-Data"><a href="#Block-Chain-and-Big-Data" class="headerlink" title="Block Chain and Big Data"></a>Block Chain and Big Data</h2><h2 id="Cyber-Security-and-Cloud-Computing"><a href="#Cyber-Security-and-Cloud-Computing" class="headerlink" title="Cyber Security and Cloud Computing"></a>Cyber Security and Cloud Computing</h2>]]></content>
+  </entry>
+</search>
