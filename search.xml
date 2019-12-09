@@ -69,6 +69,14 @@
 <p>simulator =Aer.get_backend(‘qasm_simulator’)<br>result=execute(circuit,backend=simulator,shots=1).result()<br>from qiskit.visualization import plot_histogram<br>plot_histogram(result.get_counts(circuit))<br><img src="/images/q2_2.png" ></p>
 <h2 id="Make-Money！"><a href="#Make-Money！" class="headerlink" title="Make Money！"></a>Make Money！</h2><p>权贵富豪最担心安全了，拽拽！<br><img src="/images/qspace.png" ></p>
 ]]></content>
+      <categories>
+        <category>量子</category>
+      </categories>
+      <tags>
+        <tag>波函数</tag>
+        <tag>叠加态</tag>
+        <tag>纠缠态</tag>
+      </tags>
   </entry>
   <entry>
     <title>Escape Master</title>
